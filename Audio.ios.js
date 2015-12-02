@@ -3,6 +3,7 @@
 /**
  * This module is a thin layer over the native module. It's aim is to obscure
  * implementation details for registering callbacks, changing settings, etc.
+ * Lennon's react-native audio fork
 */
 
 var React, {NativeModules, NativeAppEventEmitter, DeviceEventEmitter} = require('react-native');
